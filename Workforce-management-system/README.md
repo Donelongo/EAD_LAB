@@ -1,7 +1,7 @@
 # Workforce Management System
 # Members
-Dagmawi Elias Lewi ---------- UGR/2645/14
-Nobel Tibebe Alemayehu ------ UGR/5954/14
+- Dagmawi Elias Lewi ---------- UGR/2645/14
+- Nobel Tibebe Alemayehu ------ UGR/5954/14
 
 ## Overview
 The Workforce Management System is a web application designed to manage employee data, schedules, and tasks efficiently. It leverages Spring Boot for the backend, Vaadin for the frontend, and MySQL as the database.
