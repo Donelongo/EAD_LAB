@@ -1,17 +1,64 @@
-# Spring Boot and Vaadin course source code
+# Workforce Management System
+# Members
+Dagmawi Elias Lewi ---------- UGR/2645/14
+Nobel Tibebe Alemayehu ------ UGR/5954/14
 
-This repository contains the source code for the [Building Modern Web Applications With Spring Boot and Vaadin](https://vaadin.com/docs/latest/flow/tutorials/in-depth-course).
+## Overview
+The Workforce Management System is a web application designed to manage employee data, schedules, and tasks efficiently. It leverages Spring Boot for the backend, Vaadin for the frontend, and MySQL as the database.
 
-*Live demo:* https://crm.demo.vaadin.com
+## Features
+- Employee management: Add, update, and delete employee records.
+- Schedule management: Create and manage work schedules.
+- Task management: Assign and track tasks for employees.
+- User authentication and authorization.
 
-## Running the Application
-There are two ways to run the application:  using `mvn` or by running the `Application` class directly from your IDE.
+## Technologies Used
+- **Spring Boot**: Backend framework.
+- **Vaadin**: Frontend framework.
+- **MySQL**: Database.
+- **Hibernate**: ORM for database interactions.
+- **Maven**: Build and dependency management tool.
 
-## Branches
+## Prerequisites
+- Java 17 or higher
+- Maven 3.6 or higher
+- MySQL 8.0 or higher
 
-- The main branch contains the source code for the latest Vaadin release
-- The `v14` branch contains the source code for Vaadin 14
+## Setup Instructions
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    cd Workforce-management-system
+    ```
 
+2. **Create the database**:
+    ```sql
+    CREATE DATABASE workforcedb;
+    ```
 
-## Text tutorial
-You can find a text version of the tutorial in the [Vaadin Documentation](https://vaadin.com/docs/latest/flow/tutorials/in-depth-course).
+3. **Configure the database connection**:
+    Update the `src/main/resources/application.properties` file with your MySQL credentials.
+
+4. **Build the project**:
+    ```bash
+    mvn clean install
+    ```
+
+5. **Run the application**:
+    ```bash
+    mvn spring-boot:run
+    ```
+
+6. **Access the application**:
+    Open your browser and navigate to `http://localhost:8080`.
+
+## Project Structure
+- `src/main/java/com/example/application`: Contains the main application code.
+- `src/main/resources`: Contains the application properties and static resources.
+- `src/test`: Contains the test cases.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
