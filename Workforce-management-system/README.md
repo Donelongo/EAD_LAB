@@ -27,7 +27,7 @@ The Workforce Management System is a web application designed to manage employee
 ## Setup Instructions
 1. **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Donelongo/EAD_LAB.git
     cd Workforce-management-system
     ```
 
