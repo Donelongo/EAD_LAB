@@ -7,9 +7,9 @@
 The Workforce Management System is a web application designed to manage employee data, schedules, and tasks efficiently. It leverages Spring Boot for the backend, Vaadin for the frontend, and MySQL as the database.
 
 ## Features
-- Employee management: Add, update, and delete employee records.
-- Schedule management: Create and manage work schedules.
-- Task management: Assign and track tasks for employees.
+- Employee management: Create, read, update, and delete employee records.
+- Charts for visualization: Visualize employee positions and departments using interactive charts.
+- Desktop integration - Seamless integration with desktop environments.Seamless integration with desktop environments.
 - User authentication and authorization.
 
 ## Technologies Used
