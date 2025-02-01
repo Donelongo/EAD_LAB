@@ -14,7 +14,7 @@ The Workforce Management System is a web application designed to manage employee
 
 ## Technologies Used
 - **Spring Boot**: Backend framework.
-- **Vaadin**: Frontend framework.
+- **Vaadin**: Frontend java framework.
 - **MySQL**: Database.
 - **Hibernate**: ORM for database interactions.
 - **Maven**: Build and dependency management tool.
