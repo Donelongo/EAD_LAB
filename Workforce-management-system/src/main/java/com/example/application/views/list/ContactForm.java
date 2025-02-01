@@ -25,7 +25,7 @@ public class ContactForm extends FormLayout {
   TextField lastName = new TextField("Last name");
   EmailField email = new EmailField("Email");
   ComboBox<Status> status = new ComboBox<>("Status");
-  ComboBox<Company> company = new ComboBox<>("Company");
+  ComboBox<Company> company = new ComboBox<>("Position");
 
   Button save = new Button("Save");
   Button delete = new Button("Delete");
