@@ -39,7 +39,7 @@ public class MainLayout extends AppLayout {
             LumoUtility.Padding.Vertical.NONE,
             LumoUtility.Padding.Horizontal.MEDIUM);
 
-        addToNavbar(header); 
+        addToNavbar(header);
 
     }
 
